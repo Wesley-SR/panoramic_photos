@@ -86,8 +86,6 @@ def panoramic_client():
 
             returning = not returning  # Reverse direction of rotation
 
-        return pantilt_feedback.response_sucess
-
     except rospy.ServiceException as e:
         print("Service call failed {0}".format(e))
 
